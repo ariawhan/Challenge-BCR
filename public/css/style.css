@@ -1,0 +1,246 @@
+/* Body -> font */
+body {
+  font-family: Helvetica;
+  color: black;
+  font-style: normal;
+  font-weight: 300;
+}
+
+/* css global */
+h1 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 150%;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+h5 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 16px;
+}
+
+.button-global {
+  background-color: #5cb85f;
+  border: #5cb85f;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 2px;
+}
+
+/* header */
+header {
+  background-color: #f1f3ff;
+  padding-top: 24px;
+  height: 500px;
+}
+
+/* Navbar */
+.header-navbar-logo {
+  background: #0d28a6;
+  width: 100px;
+  height: 34px;
+}
+
+.nav-item a {
+  color: black;
+  margin-right: 18px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* Header Banner and img */
+.header-banner h1 {
+  margin-top: 100px;
+}
+
+.header-banner img {
+  margin-top: 17px;
+}
+
+/* PupUP */
+.modal-body p {
+  font-weight: bold;
+}
+.modal-body input {
+  margin-bottom: 30px;
+}
+
+/* Main */
+main {
+  margin-top: 104px;
+  margin-bottom: 150px;
+  background-color: white;
+}
+
+/* Services */
+.main-services {
+  margin-bottom: 150px;
+  height: 428px;
+}
+
+.ul-main li {
+  list-style-image: url("../images/icons/icon-true.svg");
+  margin: 0;
+}
+
+.ul-main p {
+  padding-top: 18px;
+  padding-left: 10px;
+}
+
+/* Why us */
+.main-whyus {
+  padding-bottom: 100px;
+}
+
+.main-whyus h4,
+.main-whyus h5 {
+  margin-bottom: 16px;
+  padding-top: 16px;
+}
+
+.main-whyus-cards {
+  padding-top: 30px;
+}
+
+.card {
+  width: 18rem;
+}
+
+/* Testimoni */
+.main-testimoni {
+  margin-bottom: 104px;
+}
+
+.main-testimoni h4,
+.main-testimoni p {
+  text-align: center;
+}
+
+.main-testimoni-carousel {
+  padding-top: 20px;
+}
+
+.item {
+  background: #f1f3ff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  width: 619px;
+  margin-right: 32px;
+  margin-bottom: 30px;
+}
+
+.main-testimoni-deks {
+  padding-top: 69px;
+  padding-left: 49px;
+  padding-bottom: 69px;
+  padding-right: 46px;
+}
+
+.main-testimoni-images {
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.main-testimoni-deks p {
+  text-align: left;
+}
+
+.main-testimoni-name p {
+  font-weight: bold;
+  margin-top: -5px;
+  padding-left: 4px;
+}
+
+/* CTA Banner */
+.main-banner {
+  background-color: #0d28a6;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  border-radius: 13px;
+  height: 326px;
+}
+
+.main-banner h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 150%;
+  color: #ffffff;
+  text-align: center;
+}
+
+.main-banner p {
+  text-align: center;
+  color: #ffffff;
+}
+
+.main-banner-button {
+  text-align: center;
+  margin-top: 64px;
+}
+
+.main-faq {
+  margin-top: 100px;
+}
+
+/* footer */
+footer {
+  margin-bottom: 100px;
+}
+
+.footer-nav p {
+  font-weight: bold;
+  color: black;
+}
+
+.footer-nav a {
+  text-decoration: none;
+}
+
+.footer-logo {
+  display: flex;
+  width: 100px;
+  height: 34px;
+  background-color: #0d28a6;
+}
+
+/* hover */
+.button-global:hover,
+.header-navbar-logo:hover,
+.footer-logo:hover,
+.footer-connect-icons img:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  transform: scale(1.2);
+}
+
+.nav-item a:hover {
+  background-color: rgb(98, 193, 233);
+  color: white;
+  border-radius: 3%;
+  transform: scale(1.1);
+}
+
+.footer-nav p:hover {
+  transform: scale(1.1);
+}
